@@ -1,0 +1,85 @@
+    1  ls
+    2  ls -a
+    3  ls ..
+    4  ls
+    5  ls -a
+    6  exit
+    7  ls
+    8  ls -a
+    9  exit
+   10  ls
+   11  ls -a
+   12  git init
+   13  ls
+   14  ls -a
+   15  git init
+   16  git init
+   17  clear
+   18  git add Aula_GIT
+   19  add index.html
+   20  git add index.html
+   21  ls
+   22  git add teste1.html
+   23  clear
+   24  git log
+   25  git init
+   26  git add .
+   27  git commit -m "primeiro commit"
+   28  git log
+   29  clear
+   30  ls
+   31  git init
+   32  ls
+   33  git config --global user.name "Nzagi Francisco"
+   34  git config --global user.email "nzagifteca@gmail.com"
+   35  git add.
+   36  git add .
+   37  git commit -m "segundo commit"
+   38  git log
+   39  ls
+   40  ls
+   41  git add teste1000.html 
+   42  git commit -m "site alterado"
+   43  git log
+   44  git checkout  34b8473e316067b2d62e35c103e971defe610a80
+   45  clear
+   46  git log
+   47  git branch
+   48  git chechout master
+   49  ls
+   50  ls -a
+   51  pwd
+   52  clear
+   53  ls
+   54  ls -a
+   55  mkdir teste
+   56  clear
+   57  git config --global user.name 'Nzagi Francisco'
+   58  git config user.email 'nzagifteca@gmail.com'
+   59  git config --global user.name
+   60  git init
+   61  git status
+   62  echo '#Apredendo usar o Git' > readme.md
+   63  git status
+   64  git add readme.md 
+   65  git status
+   66  git commit -m 'Commit inicial'
+   67  git status
+   68  echo '##Aula 1' >> readme.md
+   69  git status
+   70  echo 'Nzagi Francisco' > participantes.txt
+   71  git status
+   72  git add .
+   73  git status
+   74  git restore --staged participantes.txt
+   75  git status
+   76  git add participantes.txt 
+   77  git status
+   78  git restore --staged .
+   79  git status
+   80  git commit -am 'Alteração no readme'
+   81  git status
+   82  git add participantes.txt 
+   83  git status
+   84  git commit -m 'Adicionado participantes.txt'
+   85  history > Aula_3.txt
