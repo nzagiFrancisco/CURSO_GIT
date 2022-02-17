@@ -1,0 +1,120 @@
+    1  ls
+    2  ls -a
+    3  ls ..
+    4  ls
+    5  ls -a
+    6  exit
+    7  ls
+    8  ls -a
+    9  exit
+   10  ls
+   11  ls -a
+   12  git init
+   13  ls
+   14  ls -a
+   15  git init
+   16  git init
+   17  clear
+   18  git add Aula_GIT
+   19  add index.html
+   20  git add index.html
+   21  ls
+   22  git add teste1.html
+   23  clear
+   24  git log
+   25  git init
+   26  git add .
+   27  git commit -m "primeiro commit"
+   28  git log
+   29  clear
+   30  ls
+   31  git init
+   32  ls
+   33  git config --global user.name "Nzagi Francisco"
+   34  git config --global user.email "nzagifteca@gmail.com"
+   35  git add.
+   36  git add .
+   37  git commit -m "segundo commit"
+   38  git log
+   39  ls
+   40  ls
+   41  git add teste1000.html 
+   42  git commit -m "site alterado"
+   43  git log
+   44  git checkout  34b8473e316067b2d62e35c103e971defe610a80
+   45  clear
+   46  git log
+   47  git branch
+   48  git chechout master
+   49  ls
+   50  ls -a
+   51  pwd
+   52  clear
+   53  ls
+   54  ls -a
+   55  mkdir teste
+   56  clear
+   57  clear
+   58  git log
+   59  clear
+   60  git log --pretty=oneline
+   61  git log --stat
+   62  git log -p
+   63  git log --pretty=oneline -2
+   64  git log --since=2.minutes
+   65  git log --since=20.minutes
+   66  git log --author='Nzagi Francisco'
+   67  clear
+   68  git log
+   69  git status
+   70  ls
+   71  git status
+   72  touch teste
+   73  git status
+   74  git add teste
+   75  git status
+   76  git commit -m 'commit de teste
+   77  git log
+   78  Q
+   79  Q
+   80  Z
+   81  git status
+   82  git commit -m 'commit de teste'
+   83  git log
+   84  git reset --soft HEAD~
+   85  GIT LOG
+   86  git log
+   87  git status
+   88  git commit -m 'commit de teste'
+   89  git log
+   90  git reset --hard HEAD~
+   91  git log
+   92  git status
+   93  git log --pretty=oneline
+   94  git checkout HEAD~~
+   95  git status
+   96  git log
+   97  ls
+   98  git checkout master
+   99  git log
+  100  git checkout HEAD~2
+  101  git log
+  102  git checkout HEAD~
+  103  git checkout master
+  104  mkdir .vscode
+  105  touch conf.txt
+  106  mv conf.txt .vscode/
+  107  ls .vscode/
+  108  ls
+  109  ls -a
+  110  git status
+  111  echo '.vscode/' > .gitignore
+  112  git status
+  113  touch pessoal.conf
+  114  git status
+  115  echo 'pessoal.conf' >> .gitignore
+  116  git status
+  117  git add .gitignore
+  118  git commit -m 'Adicionado arquivo .gitignore'
+  119  git status
+  120  history > Aula_4.txt
