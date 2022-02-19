@@ -1,0 +1,96 @@
+    1  ls
+    2  ls -a
+    3  ls ..
+    4  ls
+    5  ls -a
+    6  exit
+    7  ls
+    8  ls -a
+    9  exit
+   10  ls
+   11  ls -a
+   12  git init
+   13  ls
+   14  ls -a
+   15  git init
+   16  git init
+   17  clear
+   18  git add Aula_GIT
+   19  add index.html
+   20  git add index.html
+   21  ls
+   22  git add teste1.html
+   23  clear
+   24  git log
+   25  git init
+   26  git add .
+   27  git commit -m "primeiro commit"
+   28  git log
+   29  clear
+   30  ls
+   31  git init
+   32  ls
+   33  git config --global user.name "Nzagi Francisco"
+   34  git config --global user.email "nzagifteca@gmail.com"
+   35  git add.
+   36  git add .
+   37  git commit -m "segundo commit"
+   38  git log
+   39  ls
+   40  ls
+   41  git add teste1000.html 
+   42  git commit -m "site alterado"
+   43  git log
+   44  git checkout  34b8473e316067b2d62e35c103e971defe610a80
+   45  clear
+   46  git log
+   47  git branch
+   48  git chechout master
+   49  ls
+   50  ls -a
+   51  pwd
+   52  clear
+   53  ls
+   54  ls -a
+   55  mkdir teste
+   56  clear
+   57  clear
+   58  git log
+   59  clear
+   60  git log --pretty=oneline
+   61  git log --stat
+   62  git log -p
+   63  git log --pretty=oneline -2
+   64  git log --since=2.minutes
+   65  git log --since=20.minutes
+   66  git log --author='Nzagi Francisco'
+   67  clear
+   68  git log
+   69  git status
+   70  ls
+   71  git status
+   72  touch teste
+   73  git status
+   74  git add teste
+   75  git status
+   76  git commit -m 'commit de teste
+   77  git log
+   78  Q
+   79  Q
+   80  Z
+   81  exit
+   82  exit
+   83  git config --global alias.logpg 'log --pretty=oneline --graph
+   84  git config --global alias.logpg 'log --pretty=oneline --graph'
+   85  git logpg
+   86  git config alias.CAM 'commit -am'
+   87  git CAM
+   88  git config alias.CAM 'commit -am '
+   89  git CAM
+   90  git tag
+   91  git tag -a v0.1 -m 'Até a aula 5'
+   92  git logpg
+   93  git checkout master
+   94  git rebase feature
+   95  git logpg
+   96  history > Aula_6.txt
